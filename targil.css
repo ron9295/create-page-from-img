@@ -1,0 +1,141 @@
+.header {
+  background-color: rgb(109,1,1);
+  padding: 20px;
+  padding-left: 50px;
+  display: flex;
+  height: 5vh;
+}
+.header a {
+  margin-top: 1vh;
+  color: white;
+  text-decoration: none;
+  padding-left: 20px;
+  font-size: 1.2em;
+}
+.input-div {
+  margin-left: 65vw;
+  width: 13vw;
+  height: 3vh;
+  background-color: white;
+  border-radius: 6px;
+  padding-top:  1vh;
+  padding-left: 9px;
+  display: flex;
+}
+.input-div::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f002";
+  display: contents;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: rendering;
+  -webkit-font-smoothing: antialiased;
+}
+.input-div input {
+  border: 0px;
+  outline: none;
+  margin-bottom: 0.5vh;
+  margin-left: 0.2vw;
+}
+.container {
+  margin-top: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+.center-div {
+
+  border: 1px solid black;
+  border-radius: 8px;
+  width: 55vw;
+  height: 75vh;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  background-color: rgb(1,127,123);
+
+  /*background-image: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/the-big-bang-theory-final-sheldon-cooper-jim-parsons-1561048451.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;*/
+
+}
+.side-div {
+  border: 1px solid black;
+  border-radius: 8px;
+  width: 16vw;
+  height: 75vh;
+}
+
+.title-center-div{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4%;
+  width: 85%;
+  height: 8%;
+  background-color: white;
+  border-radius: 8px;
+  border: 0.8px solid black;
+}
+.contain-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8%;
+}
+.card {
+  background-color: white;
+  width: 15%;
+  height: 19vh;
+  margin-right: 1vw;
+  margin-left: 1vw;
+  text-align: center;
+  border-radius: 3px;
+  border: 0.8px solid black;
+}
+.card h2 {
+  margin-top: 4vh;
+  font-size: 2em;;
+}
+.circle {
+  background-color: rgb(196,196,196);
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3vh;
+  width: 4vw;
+  height: 8vh;
+}
+.card h3 {
+  font-family: Arial;
+  font-weight: normal;
+  font-size: 1.4em;
+  margin-top: 4vh;
+}
+
+.text-div {
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8%;
+  width:72%;
+  height: 20vh;
+  padding-top: 1vh;
+  padding-bottom: 2.5vh;
+}
+.div-text-flex{
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  display: flex;
+  margin-top: 3vh;
+  justify-content: center;
+}
+.div-text-flex div {
+  margin-left: 1.2vw;
+  margin-right: 1.2vw;
+  font-size: .7em;
+}
